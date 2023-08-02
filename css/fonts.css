@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    ---primary: linear-gradient hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+    ---errors: hsl(0,100%,66%);
+    ---White: hsl(0, 0%, 100%);
+    ---Light-grayish-violet: hsl(270, 3%, 87%);
+    ---Dark-grayish-violet: hsl(279, 6%, 55%);
+    ---Very-dark-violet: hsl(278, 68%, 11%);
+    ---focus:linear-gradient(90deg, rgba(12,9,80,1) 27%, rgba(163,106,213,1) 78%);
+}
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
