@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+    <title>Interactive card details form</title>
+</head>
+<body>
+    <div class="container">
+        <section class="card-images">
+            <div class="img1">
+                <p>000</p>
+            </div>
+            <div class="img2">
+                <div class="card-logo"></div>
+                <h4>0000 0000 0000 0000</h4>
+                <p class='name'>Marcelo Papi</p>
+                <p>00/00</p>
+            </div>
+        </section>
+        <div id='form'> 
+            <form>
+                <label><b>cardholder name</b></label>
+                <input type="text" placeholder='e.g. Marcelo papi' class='card-name' autoComplete='off'/><br />
+                <span class='alert'>Can`t be blank</span>
+                <label><b>card number</b></label>
+                <input type="text" placeholder='e.g. Marcelo papi' class='card-number' autoComplete='off'/><br />
+                <span class='alert'>Wrong format, numbers only</span>
+                <label><b>exp. date (mm/yy)</b></label> <label><b>cvc</b></label><br />
+                <input type="text" placeholder='MM' class='card-date' autoComplete='off'/>
+                <input type="text" placeholder='YY' class='card-year' autoComplete='off'/>
+                <input type="text" placeholder='e.g. 123' class='card-code' autoComplete='off'/><br />
+                <span class='alert inline'>Can`t be blank</span>
+                <span class='alert inline2'>Can`t be blank</span>
+                <button>Confirm</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
