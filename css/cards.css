@@ -70,10 +70,26 @@
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+.card-images .img2 .date{
+    position: absolute;
+    top: 132px;
+    right: 45px;
+    color: var(---Light-grayish-violet);
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+.card-images .img2 .year{
+    position: absolute;
+    top: 132px;
+    right: 15px;
+    color: var(---Light-grayish-violet);
+    font-size: 12px;
+    letter-spacing: 3px;
+}
 .card-images .img2 p{
     position: absolute;
     top: 132px;
-    right: 21px;
+    right: 37px;
     color: var(---Light-grayish-violet);
     font-size: 12px;
     letter-spacing: 3px;

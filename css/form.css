@@ -19,6 +19,7 @@
     border-radius: 7px;
     border: 1px solid var(---Light-grayish-violet);
     cursor: pointer;
+    font-size: 19px;
 }
 #form form input:focus{
     outline: 1px solid rgb(133, 57, 255);
@@ -42,7 +43,7 @@
 #form form button{
     width: 325px;
     padding: 15px;
-    margin-top: 25px;
+    margin-top: 20px;
     border-radius: 7px;
     font-size: 18px;
     color: var(---Light-grayish-violet);
