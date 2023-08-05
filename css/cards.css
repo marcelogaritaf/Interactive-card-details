@@ -94,3 +94,58 @@
     font-size: 12px;
     letter-spacing: 3px;
 }
+/*responsive*/
+@media  screen and (min-width:500px) and (max-width:600px) {
+    .card-images .img1{
+        right: 90px;
+    }   
+    .card-images .img2{
+        left: 90px;
+    }
+    .hide{
+        display: none;
+    }
+}
+@media  screen and (min-width:700px) and (max-width:920px) {
+    .card-images .img1{
+        right: 200px;
+    }   
+    .card-images .img2{
+        left: 200px;
+    }
+    .card-images .img1 p{
+        font-size: 17px;
+    }
+    .card-images .img2 .name, 
+    .card-images .img2 .date, 
+    .card-images .img2 .year,
+    .card-images .img2 p{
+        font-size: 15px;
+    }
+    .hide{
+        display: none;
+    }
+}
+@media  screen and (min-width:950px){
+    body{
+        height: 850px;
+    }
+    .container{
+        height: 100%;
+        width: 30%;
+        background-image: url(../images/bg-main-desktop.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .card-images .img1{
+        right: 0;
+        top: 250px;
+        left: 120px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    .card-images .img2{
+        top: 40px;
+        left: 70px;
+    }
+
+}

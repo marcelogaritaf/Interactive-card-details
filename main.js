@@ -48,5 +48,4 @@ btnSuccess.addEventListener("click", (e) => {
 
   form.classList.remove("hide");
   success.classList.add("hide");
-  inputs.textContent = " ";
 });
