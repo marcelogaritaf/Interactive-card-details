@@ -197,3 +197,40 @@
         width: 100px;
     }
 }
+@media  screen and (min-width:1200px){
+    #form{
+        top: 120px;
+        left: 680px;
+    }
+    #form form label{
+        display: block;
+        font-size: 11px;
+    }
+    #form form .exp,
+    #form form .cvc{
+        display: inline;
+    }
+    #form form .exp{
+        margin-right: 115px
+    }
+    #form form input{
+        padding: 11px;
+        margin-top: 9px;
+        margin-bottom: 9px;
+        width: 350px;
+    }
+    #form form button{
+        display: flex;
+       justify-content: center;
+       width:80%;
+       padding: 13px;
+    }
+    #form form .card-date{
+        width: 100px;
+        margin-right: 10px;
+    }
+    #form form .card-year{
+        width: 100px;
+        margin-right: 30px;
+    }
+}
